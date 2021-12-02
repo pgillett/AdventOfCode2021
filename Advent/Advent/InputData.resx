@@ -21,4 +21,7 @@
     <data name="Day01Sonar" type="System.Resources.ResXFileRef, System.Windows.Forms">
         <value>DataFiles\Day01Sonar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
     </data>
+    <data name="Day02Dive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+        <value>DataFiles\Day02Dive.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+    </data>
 </root>

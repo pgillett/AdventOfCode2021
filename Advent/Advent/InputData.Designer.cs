@@ -170,5 +170,71 @@ namespace Advent {
                 return ResourceManager.GetString("Day01Sonar", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to forward 1
+        ///forward 2
+        ///down 5
+        ///down 5
+        ///down 4
+        ///down 9
+        ///up 6
+        ///up 7
+        ///down 2
+        ///forward 9
+        ///up 4
+        ///forward 7
+        ///forward 9
+        ///up 3
+        ///down 1
+        ///forward 5
+        ///down 3
+        ///forward 3
+        ///forward 3
+        ///forward 3
+        ///down 2
+        ///down 5
+        ///forward 7
+        ///down 7
+        ///up 7
+        ///down 9
+        ///down 1
+        ///down 4
+        ///down 9
+        ///down 2
+        ///forward 2
+        ///forward 4
+        ///up 7
+        ///up 1
+        ///forward 3
+        ///forward 8
+        ///forward 9
+        ///forward 6
+        ///forward 9
+        ///forward 1
+        ///forward 5
+        ///down 9
+        ///up 7
+        ///down 9
+        ///forward 2
+        ///forward 9
+        ///forward 1
+        ///forward 5
+        ///up 8
+        ///down 5
+        ///forward 4
+        ///up 6
+        ///up 9
+        ///forward 2
+        ///up 8
+        ///down 1
+        ///up 5
+        ///forward [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day02Dive {
+            get {
+                return ResourceManager.GetString("Day02Dive", resourceCulture);
+            }
+        }
     }
 }

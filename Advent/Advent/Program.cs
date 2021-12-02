@@ -23,6 +23,13 @@ namespace Advent
                 Output(1,2,"Sliding increase", day1.SlidingIncreases(InputData.Day01Sonar));
             }
             
+            if (IncludeDay(2))
+            {
+                var day2 = new Day02();
+                Output(1,1,"Depth horizontal move", day2.Move(InputData.Day02Dive));
+                Output(1,1,"Depth horizontal aim", day2.Aim(InputData.Day02Dive));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

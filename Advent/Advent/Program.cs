@@ -30,6 +30,13 @@ namespace Advent
                 Output(1,1,"Depth horizontal aim", day2.Aim(InputData.Day02Dive));
             }
             
+            if (IncludeDay(3))
+            {
+                var day3 = new Day03();
+                Output(1,1,"Power consumption", day3.Power(InputData.Day03Report));
+                Output(1,1,"Life support", day3.Life(InputData.Day03Report));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

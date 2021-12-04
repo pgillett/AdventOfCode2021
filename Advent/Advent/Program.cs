@@ -26,15 +26,22 @@ namespace Advent
             if (IncludeDay(2))
             {
                 var day2 = new Day02();
-                Output(1,1,"Depth horizontal move", day2.Move(InputData.Day02Dive));
-                Output(1,1,"Depth horizontal aim", day2.Aim(InputData.Day02Dive));
+                Output(2,1,"Depth horizontal move", day2.Move(InputData.Day02Dive));
+                Output(2,2,"Depth horizontal aim", day2.Aim(InputData.Day02Dive));
             }
             
             if (IncludeDay(3))
             {
                 var day3 = new Day03();
-                Output(1,1,"Power consumption", day3.Power(InputData.Day03Report));
-                Output(1,1,"Life support", day3.Life(InputData.Day03Report));
+                Output(3,1,"Power consumption", day3.Power(InputData.Day03Report));
+                Output(3,2,"Life support", day3.Life(InputData.Day03Report));
+            }
+            
+            if (IncludeDay(4))
+            {
+                var day4 = new Day04();
+                Output(4,1,"Winning score", day4.WinningScore(InputData.Day04Squid));
+                Output(4,2,"Squid to win", day4.SquidToWinScore(InputData.Day04Squid));
             }
             
             Console.WriteLine();

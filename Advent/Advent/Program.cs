@@ -44,6 +44,13 @@ namespace Advent
                 Output(4,2,"Squid to win", day4.SquidToWinScore(InputData.Day04Squid));
             }
             
+            if (IncludeDay(5))
+            {
+                var day5 = new Day05();
+                Output(5,1,"Vents horiz vert", day5.VentsExcluding(InputData.Day05Vent));
+                Output(5,2,"All vents", day5.VentsIncluding(InputData.Day05Vent));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

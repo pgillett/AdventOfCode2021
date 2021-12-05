@@ -307,5 +307,40 @@ namespace Advent {
                 return ResourceManager.GetString("Day04Squid", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 657,934 -&gt; 657,926
+        ///130,34 -&gt; 570,474
+        ///478,716 -&gt; 226,464
+        ///861,110 -&gt; 861,167
+        ///448,831 -&gt; 370,831
+        ///75,738 -&gt; 390,738
+        ///26,880 -&gt; 864,42
+        ///965,658 -&gt; 527,220
+        ///208,381 -&gt; 80,381
+        ///523,475 -&gt; 807,475
+        ///219,69 -&gt; 219,434
+        ///793,538 -&gt; 534,797
+        ///754,602 -&gt; 754,148
+        ///443,327 -&gt; 443,611
+        ///606,395 -&gt; 546,395
+        ///980,56 -&gt; 51,985
+        ///619,325 -&gt; 354,325
+        ///342,123 -&gt; 819,600
+        ///290,533 -&gt; 374,533
+        ///598,77 -&gt; 598,75
+        ///605,302 -&gt; 605,636
+        ///97,981 -&gt; 692,386
+        ///278,779 -&gt; 278,800
+        ///661,377 -&gt; 661,10
+        ///726,108 -&gt; 518,316
+        ///271,883 -&gt; 271,50
+        ///382,2 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day05Vent {
+            get {
+                return ResourceManager.GetString("Day05Vent", resourceCulture);
+            }
+        }
     }
 }

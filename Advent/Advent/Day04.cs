@@ -21,28 +21,23 @@ namespace Advent
 
         private int Score(int[] called, Board[] boards, bool finishOnWin)
         {
-            var last = 0;
-            Board winner = null;
+            var winningScore = 0;
             foreach (var number in called)
             {
-                foreach (var board in boards)
+                foreach (var board in boards.Where(b => !b.HasWonAlready))
                 {
-                    if (!board.HasWon && board.Mark(number))
-                    {
-                        if (finishOnWin) return board.Sum() * number;
-                        last = number;
-                        winner = board;
-                    }
+                    winningScore = board.MarkAndCheck(number);
+                    if (finishOnWin && winningScore > 0) return winningScore;
                 }
             }
 
-            return winner.Sum() * last;
+            return winningScore;
         }
 
         private class Board
         {
             private int[][] Numbers;
-            public bool HasWon;
+            public bool HasWonAlready;
 
             public Board(string board)
             {
@@ -54,7 +49,7 @@ namespace Advent
                     .ToArray();
             }
 
-            public bool Mark(int called)
+            public int MarkAndCheck(int called)
             {
                 foreach (var row in Numbers)
                 {
@@ -65,8 +60,9 @@ namespace Advent
                     }
                 }
 
-                HasWon = Check();
-                return HasWon;
+                HasWonAlready = Check();
+                if (HasWonAlready) return Sum() * called;
+                return 0;
             }
 
             private bool Check()

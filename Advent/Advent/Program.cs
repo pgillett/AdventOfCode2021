@@ -51,6 +51,13 @@ namespace Advent
                 Output(5,2,"All vents", day5.VentsIncluding(InputData.Day05Vent));
             }
             
+            if (IncludeDay(6))
+            {
+                var day6 = new Day06();
+                Output(6,1,"Fish after 80 days", day6.FishAfter80(InputData.Day06Fish));
+                Output(6,2,"Fish after 256 days", day6.FishAfter256(InputData.Day06Fish));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

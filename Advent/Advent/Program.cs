@@ -58,6 +58,13 @@ namespace Advent
                 Output(6,2,"Fish after 256 days", day6.FishAfter256(InputData.Day06Fish));
             }
             
+            if (IncludeDay(7))
+            {
+                var day7 = new Day07();
+                Output(7,1,"Constant fuel", day7.ConstantFuel(InputData.Day07Crabs));
+                Output(7,2,"Increasing fuel", day7.IncreasingFuel(InputData.Day07Crabs));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

@@ -360,5 +360,19 @@ namespace Advent {
                 return ResourceManager.GetString("Day07Crabs", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to dacefg fegab de dceb bedag dae bcgaefd bdacg fbgcad bgedca | acfebgd de dbagc deagcb
+        ///cfgda fdebgc bfcdeag dbg afgedb efbad bg cdfeab gabdf abeg | dbg fbedgca gbea gbae
+        ///dgcbe egdafcb bgcfe dgbf cgbafe db ecbfad deb agcde gdbfec | edb bcefgd gdfb edb
+        ///fbgad bgedafc dcageb gcfbed bgdfca ebfag df fdg fcad bcagd | gdecfb dbfgac cgabd fd
+        ///bacgd dbceg acedgf dgefb dcfbag cgbead edc ce abce bgecfad | abec gdcfea cbdga agbcde
+        ///gcbfde gbdfeca ec afcbge egafb cdagb dbegfa ecaf bcaeg egc | egfcdb cgbdfe ebafgc cdfgeb [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day08Segment {
+            get {
+                return ResourceManager.GetString("Day08Segment", resourceCulture);
+            }
+        }
     }
 }

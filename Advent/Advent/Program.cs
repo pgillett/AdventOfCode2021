@@ -65,6 +65,13 @@ namespace Advent
                 Output(7,2,"Increasing fuel", day7.IncreasingFuel(InputData.Day07Crabs));
             }
             
+            if (IncludeDay(8))
+            {
+                var day8 = new Day08();
+                Output(8, 1, "Just 1 4 7 8", day8.Numbers1478(InputData.Day08Segment));
+                Output(8,2,"All numbers", day8.AllNumbers(InputData.Day08Segment));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

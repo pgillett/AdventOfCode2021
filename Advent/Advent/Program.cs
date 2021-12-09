@@ -72,6 +72,13 @@ namespace Advent
                 Output(8,2,"All numbers", day8.AllNumbers(InputData.Day08Segment));
             }
             
+            if (IncludeDay(9))
+            {
+                var day9 = new Day09();
+                Output(9, 1, "Risk", day9.Risk(InputData.Day09Smoke));
+                Output(9,2,"Three largest", day9.ThreeLargest(InputData.Day09Smoke));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

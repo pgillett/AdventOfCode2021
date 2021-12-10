@@ -388,5 +388,19 @@ namespace Advent {
                 return ResourceManager.GetString("Day09Smoke", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [[&lt;&lt;&lt;{&lt;&lt;&lt;(&lt;&lt;(([]())(&lt;&gt;&lt;&gt;))&lt;[{}()][(){}]&gt;&gt;(([()[]]&lt;{}()&gt;)[&lt;[]{}&gt;[(){}]])&gt;)&gt;([{&lt;&lt;&lt;()()&gt;[&lt;&gt;()
+        ///[&lt;[&lt;{[[({[({{[(){}][()[]]}&lt;[{}&lt;&gt;](&lt;&gt;[])&gt;}{&lt;[{}{}][&lt;&gt;()]]{{[]}{[][]}}}){(([&lt;&gt;{}]&lt;(){}&gt;))&lt;({&lt;&gt;{}}{{}{}}){[[]&lt;&gt;
+        ///[&lt;&lt;&lt;[{{[[{({{[&lt;&gt;{}][()]}}[[[[][]][{}&lt;&gt;]]])&lt;{(({}&lt;&gt;)&lt;()&gt;)&lt;[{}&lt;&gt;][()()]&gt;}&gt;}(&lt;{[[()()]{{}()}]&gt;[&lt;&lt;{}
+        ///([[{&lt;{{({&lt;[{[([][]){[]&lt;&gt;}&gt;(&lt;[][]&gt;[&lt;&gt;()])}([&lt;&lt;&gt;&gt;&lt;{}&lt;&gt;&gt;]{({}{})[{}[]]})]&gt;})[[[&lt;&lt;(&lt;()[]&gt;{&lt;&gt;()
+        ///{([&lt;(({[[&lt;{{[[{}&lt;&gt;]({}[])&gt;&lt;{(){}}{()()}&gt;}&lt;&lt;[()[]][{}[]]&gt;&lt;[&lt;&gt;{}]([]{})&gt;&gt;}([(&lt;(){}&gt;{{}()})&lt;&lt;{}{}&gt;{[]{
+        ///[[(&lt;{[&lt;(&lt;&lt;([&lt;{&lt;&gt;()} [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day10Syntax {
+            get {
+                return ResourceManager.GetString("Day10Syntax", resourceCulture);
+            }
+        }
     }
 }

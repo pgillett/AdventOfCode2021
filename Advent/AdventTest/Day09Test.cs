@@ -1,3 +1,4 @@
+using System;
 using Advent;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

@@ -79,6 +79,20 @@ namespace Advent
                 Output(9,2,"Three largest", day9.ThreeLargest(InputData.Day09Smoke));
             }
             
+            if (IncludeDay(10))
+            {
+                var day10 = new Day10();
+                Output(10, 1, "Corrupt", day10.Corrupt(InputData.Day10Syntax));
+                Output(10,2,"Incomplete", day10.Incomplete(InputData.Day10Syntax));
+            }
+            
+            if (IncludeDay(11))
+            {
+                var day11 = new Day11();
+                Output(11, 1, "After 100", day11.After100(InputData.Day11Octopus));
+                Output(11,2,"Synchronises at", day11.Synchronise(InputData.Day11Octopus));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

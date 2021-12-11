@@ -402,5 +402,23 @@ namespace Advent {
                 return ResourceManager.GetString("Day10Syntax", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 8271653836
+        ///7567626775
+        ///2315713316
+        ///6542655315
+        ///2453637333
+        ///1247264328
+        ///2325146614
+        ///2115843171
+        ///6182376282
+        ///2384738675.
+        /// </summary>
+        internal static string Day11Octopus {
+            get {
+                return ResourceManager.GetString("Day11Octopus", resourceCulture);
+            }
+        }
     }
 }

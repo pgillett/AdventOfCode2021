@@ -420,5 +420,34 @@ namespace Advent {
                 return ResourceManager.GetString("Day11Octopus", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ma-start
+        ///YZ-rv
+        ///MP-rv
+        ///vc-MP
+        ///QD-kj
+        ///rv-kj
+        ///ma-rv
+        ///YZ-zd
+        ///UB-rv
+        ///MP-xe
+        ///start-MP
+        ///zd-end
+        ///ma-UB
+        ///ma-MP
+        ///UB-xe
+        ///end-UB
+        ///ju-MP
+        ///ma-xe
+        ///zd-UB
+        ///start-xe
+        ///YZ-end.
+        /// </summary>
+        internal static string Day12Caves {
+            get {
+                return ResourceManager.GetString("Day12Caves", resourceCulture);
+            }
+        }
     }
 }

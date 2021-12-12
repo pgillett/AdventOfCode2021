@@ -93,6 +93,13 @@ namespace Advent
                 Output(11,2,"Synchronises at", day11.Synchronise(InputData.Day11Octopus));
             }
             
+            if (IncludeDay(12))
+            {
+                var day12 = new Day12();
+                Output(12, 1, "Small caves once", day12.SmallCavesOnce(InputData.Day12Caves));
+                Output(12,2,"Small caves one twice", day12.SmallCavesOneTwice(InputData.Day12Caves));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

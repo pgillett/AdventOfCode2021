@@ -100,6 +100,15 @@ namespace Advent
                 Output(12,2,"Small caves one twice", day12.SmallCavesOneTwice(InputData.Day12Caves));
             }
             
+            if (IncludeDay(13))
+            {
+                var day13 = new Day13();
+                Output(13, 1, "One fold dots", day13.OneFoldDots(InputData.Day13Origami));
+                Output(13,2,"All folds code", 
+                    Environment.NewLine+
+                    string.Join(Environment.NewLine, day13.AllFoldsCode(InputData.Day13Origami)));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

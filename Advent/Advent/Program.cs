@@ -109,6 +109,14 @@ namespace Advent
                     string.Join(Environment.NewLine, day13.AllFoldsCode(InputData.Day13Origami)));
             }
             
+            if (IncludeDay(14))
+            {
+                var day14 = new Day14();
+                Output(14, 1, "Polymer after 1", day14.After10(InputData.Day14Polymer));
+                Output(14,2,"Polymer after 40", day14.After40(InputData.Day14Polymer));
+            }
+
+            
             Console.WriteLine();
             Console.WriteLine();
 

@@ -514,5 +514,70 @@ namespace Advent {
                 return ResourceManager.GetString("Day13Origami", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to OOBFPNOPBHKCCVHOBCSO
+        ///
+        ///NS -&gt; H
+        ///NN -&gt; P
+        ///FF -&gt; O
+        ///HF -&gt; C
+        ///KN -&gt; V
+        ///PO -&gt; B
+        ///PS -&gt; B
+        ///FB -&gt; N
+        ///ON -&gt; F
+        ///OK -&gt; F
+        ///OO -&gt; K
+        ///KS -&gt; F
+        ///FN -&gt; F
+        ///KC -&gt; H
+        ///NC -&gt; N
+        ///NB -&gt; C
+        ///KH -&gt; S
+        ///SV -&gt; B
+        ///BC -&gt; S
+        ///KB -&gt; B
+        ///SC -&gt; S
+        ///KP -&gt; H
+        ///FS -&gt; K
+        ///NK -&gt; K
+        ///OC -&gt; H
+        ///NH -&gt; C
+        ///PH -&gt; F
+        ///OS -&gt; V
+        ///BB -&gt; C
+        ///CC -&gt; F
+        ///CF -&gt; H
+        ///CP -&gt; V
+        ///VB -&gt; N
+        ///VC -&gt; F
+        ///PK -&gt; V
+        ///NV -&gt; N
+        ///FO -&gt; S
+        ///CK -&gt; O
+        ///BH -&gt; K
+        ///PN -&gt; B
+        ///PP -&gt; S
+        ///NF -&gt; B
+        ///SF -&gt; K
+        ///VF -&gt; H
+        ///HS -&gt; F
+        ///NP -&gt; F
+        ///SH -&gt; V
+        ///SK -&gt; K
+        ///PC -&gt; V
+        ///BO -&gt; H
+        ///HN -&gt; P
+        ///BK -&gt; O
+        ///BP -&gt; S
+        ///OP -&gt; N
+        ///SP [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day14Polymer {
+            get {
+                return ResourceManager.GetString("Day14Polymer", resourceCulture);
+            }
+        }
     }
 }

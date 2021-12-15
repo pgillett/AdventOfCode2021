@@ -115,6 +115,14 @@ namespace Advent
                 Output(14, 1, "Polymer after 1", day14.After10(InputData.Day14Polymer));
                 Output(14,2,"Polymer after 40", day14.After40(InputData.Day14Polymer));
             }
+            
+            if (IncludeDay(15))
+            {
+                var day15 = new Day15();
+                Output(15, 1, "Shortest", day15.Shortest(InputData.Day15Chiton));
+                Output(15,2,"Shortest five times bigger", day15.ShortestFive(InputData.Day15Chiton));
+            }
+
 
             
             Console.WriteLine();

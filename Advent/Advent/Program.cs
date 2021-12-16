@@ -122,6 +122,13 @@ namespace Advent
                 Output(15, 1, "Shortest", day15.Shortest(InputData.Day15Chiton));
                 Output(15,2,"Shortest five times bigger", day15.ShortestFive(InputData.Day15Chiton));
             }
+            
+            if (IncludeDay(16))
+            {
+                var day16 = new Day16();
+                Output(16, 1, "Version", day16.Version(InputData.Day16Packets));
+                Output(16,2,"Result", day16.Result(InputData.Day16Packets));
+            }
 
 
             

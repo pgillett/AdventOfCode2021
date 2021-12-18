@@ -129,8 +129,13 @@ namespace Advent
                 Output(16, 1, "Version", day16.Version(InputData.Day16Packets));
                 Output(16,2,"Result", day16.Result(InputData.Day16Packets));
             }
-
-
+            
+            if (IncludeDay(17))
+            {
+                var day17 = new Day17();
+                Output(17, 1, "Max height", day17.MaxHeight(InputData.Day17Target));
+                Output(17,2,"Number of hits", day17.NumberOfHits(InputData.Day17Target));
+            }
             
             Console.WriteLine();
             Console.WriteLine();

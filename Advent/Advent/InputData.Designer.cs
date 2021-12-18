@@ -602,5 +602,14 @@ namespace Advent {
                 return ResourceManager.GetString("Day16Packets", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to target area: x=281..311, y=-74..-54.
+        /// </summary>
+        internal static string Day17Target {
+            get {
+                return ResourceManager.GetString("Day17Target", resourceCulture);
+            }
+        }
     }
 }

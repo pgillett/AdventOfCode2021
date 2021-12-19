@@ -137,6 +137,13 @@ namespace Advent
                 Output(17,2,"Number of hits", day17.NumberOfHits(InputData.Day17Target));
             }
             
+            if (IncludeDay(18))
+            {
+                var day18 = new Day18();
+                Output(18, 1, "Magnitude all", day18.MagnitudeAll(InputData.Day18Snailfish));
+                Output(18,2,"Largest pair", day18.LargestPair(InputData.Day18Snailfish));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

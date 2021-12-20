@@ -144,6 +144,13 @@ namespace Advent
                 Output(18,2,"Largest pair", day18.LargestPair(InputData.Day18Snailfish));
             }
             
+            if (IncludeDay(19))
+            {
+                var day19 = new Day19();
+                Output(18, 1, "Number of beacons", day19.NumberOfBeacons(InputData.Day19Scanner));
+                Output(18,2,"Largest distance", day19.LargestDistance(InputData.Day19Scanner));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

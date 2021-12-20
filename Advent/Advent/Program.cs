@@ -151,6 +151,13 @@ namespace Advent
                 Output(19,2,"Largest distance", day19.LargestDistance(InputData.Day19Scanner));
             }
             
+            if (IncludeDay(20))
+            {
+                var day20 = new Day20();
+                Output(20, 1, "After 2 enhances", day20.TwoEnhances(InputData.Day20Trench));
+                Output(20,2,"After 50 enhances", day20.FiftyEnhances(InputData.Day20Trench));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

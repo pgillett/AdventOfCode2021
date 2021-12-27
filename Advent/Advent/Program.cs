@@ -158,6 +158,13 @@ namespace Advent
                 Output(20,2,"After 50 enhances", day20.FiftyEnhances(InputData.Day20Trench));
             }
             
+            if (IncludeDay(21))
+            {
+                var day21 = new Day21();
+                Output(21, 1, "With 100 sided", day21.With100Sided(InputData.Day21Dice));
+                Output(21,2,"Universe wins", day21.UniverseWins(InputData.Day21Dice));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

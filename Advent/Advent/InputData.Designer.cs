@@ -688,5 +688,15 @@ namespace Advent {
                 return ResourceManager.GetString("Day20Trench", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player 1 starting position: 9
+        ///Player 2 starting position: 6.
+        /// </summary>
+        internal static string Day21Dice {
+            get {
+                return ResourceManager.GetString("Day21Dice", resourceCulture);
+            }
+        }
     }
 }

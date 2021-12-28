@@ -165,6 +165,13 @@ namespace Advent
                 Output(21,2,"Universe wins", day21.UniverseWins(InputData.Day21Dice));
             }
             
+            if (IncludeDay(22))
+            {
+                var day22 = new Day22();
+                Output(22, 1, "Initialization", day22.Initialization(InputData.Day22Reactor));
+                Output(22,2,"Reboot", day22.Reboot(InputData.Day22Reactor));
+            }
+            
             Console.WriteLine();
             Console.WriteLine();
 

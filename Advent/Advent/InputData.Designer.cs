@@ -698,5 +698,29 @@ namespace Advent {
                 return ResourceManager.GetString("Day21Dice", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to on x=-8..38,y=-15..37,z=-49..5
+        ///on x=-35..13,y=-26..26,z=-47..-2
+        ///on x=-44..9,y=-47..7,z=-18..35
+        ///on x=-24..20,y=-46..8,z=-10..38
+        ///on x=-32..21,y=-27..18,z=-43..6
+        ///on x=-36..18,y=-7..44,z=1..45
+        ///on x=-48..2,y=-38..16,z=-45..6
+        ///on x=-47..-3,y=-8..42,z=-4..49
+        ///on x=-26..25,y=-26..19,z=-37..17
+        ///on x=-8..36,y=-48..4,z=-26..19
+        ///off x=-22..-6,y=0..11,z=4..18
+        ///on x=-5..47,y=-41..12,z=-26..27
+        ///off x=10..29,y=2..18,z=-22..-10
+        ///on x=-41..4,y=-33..17,z=-43..10
+        ///off x=23..39,y=34..43,z=0..18
+        ///on x=-22..31,y=-28..17,z=- [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day22Reactor {
+            get {
+                return ResourceManager.GetString("Day22Reactor", resourceCulture);
+            }
+        }
     }
 }

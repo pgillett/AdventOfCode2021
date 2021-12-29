@@ -8,7 +8,7 @@ namespace Advent
         private static Stopwatch _stopwatch;
 
         private const int From = 1;
-        private const int To = 25;
+        private const int To = 23;
 
         private static readonly int[,] Times = new int[25, 2];
         
@@ -170,6 +170,13 @@ namespace Advent
                 var day22 = new Day22();
                 Output(22, 1, "Initialization", day22.Initialization(InputData.Day22Reactor));
                 Output(22,2,"Reboot", day22.Reboot(InputData.Day22Reactor));
+            }
+            
+            if (IncludeDay(23))
+            {
+                var day23 = new Day23();
+                Output(23, 1, "Folded", day23.Folded(InputData.Day23Amphipod));
+                Output(23,2,"Unfolded", day23.Unfolded(InputData.Day23Amphipod));
             }
             
             Console.WriteLine();

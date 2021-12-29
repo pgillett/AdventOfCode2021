@@ -722,5 +722,18 @@ namespace Advent {
                 return ResourceManager.GetString("Day22Reactor", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #############
+        ///#...........#
+        ///###A#D#A#B###
+        ///  #B#C#D#C#
+        ///  #########.
+        /// </summary>
+        internal static string Day23Amphipod {
+            get {
+                return ResourceManager.GetString("Day23Amphipod", resourceCulture);
+            }
+        }
     }
 }

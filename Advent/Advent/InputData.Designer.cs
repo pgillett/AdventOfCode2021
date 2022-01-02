@@ -800,5 +800,17 @@ namespace Advent {
                 return ResourceManager.GetString("Day24ALU", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &gt;.v&gt;vv&gt;&gt;..vv&gt;..v.v......&gt;v&gt;&gt;&gt;v.&gt;v.&gt;..v...v......v&gt;....&gt;.vv..&gt;&gt;..&gt;&gt;vv.&gt;..vv&gt;&gt;.&gt;...v...v.....&gt;.vv..&gt;v...&gt;.&gt;&gt;...v&gt;.&gt;&gt;..vv....&gt;&gt;.v.v&gt;v&gt;v&gt;vvv.vv
+        ///...vvv.v.vvvv&gt;.v.&gt;..&gt;.&gt;&gt;&gt;v..&gt;v...&gt;..v..&gt;.v&gt;&gt;.v..v.....&gt;v..v.....&gt;vv..vv...vv.v...vv&gt;.v.&gt;..v..v.&gt;&gt;.v&gt;&gt;&gt;v.&gt;&gt;&gt;.v..vv&gt;&gt;.....v.....v.v&gt;&gt;v......v
+        ///..v&gt;..v&gt;.&gt;&gt;vvv&gt;&gt;...v.v..&gt;&gt;....&gt;vv&gt;.&gt;v&gt;v..&gt;&gt;&gt;v...&gt;.......&gt;.&gt;&gt;&gt;v.&gt;&gt;v..vvvv...v.v.v.v...&gt;.vv.&gt;&gt;v&gt;...&gt;.....&gt;&gt;....v&gt;..v...v.....v..v&gt;&gt;...&gt;.vv.v&gt;
+        ///..&gt;.....&gt;v&gt;.&gt;vv.v..&gt;&gt;&gt;.&gt;...v&gt;.&gt;.v.&gt;.&gt;vvv....v...v..&gt;.......&gt;v&gt;vvvv&gt;&gt;vv&gt;&gt;&gt;.v&gt;v....vv..v..&gt; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day25Cucumber {
+            get {
+                return ResourceManager.GetString("Day25Cucumber", resourceCulture);
+            }
+        }
     }
 }

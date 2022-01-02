@@ -7,8 +7,8 @@ namespace Advent
     {
         private static Stopwatch _stopwatch;
 
-        private const int From = 1;
-        private const int To = 24;
+        private const int From = 25;
+        private const int To = 25;
 
         private static readonly int[,] Times = new int[25, 2];
         
@@ -184,6 +184,12 @@ namespace Advent
                 var day24 = new Day24();
                 Output(24, 1, "Highest", day24.Highest(InputData.Day24ALU));
                 Output(24,2,"Lowest", day24.Lowest(InputData.Day24ALU));
+            }
+            
+            if (IncludeDay(25))
+            {
+                var day25 = new Day25();
+                Output(25, 1, "Number of moves", day25.NumberOfMoves(InputData.Day25Cucumber));
             }
             
             Console.WriteLine();

@@ -4,11 +4,11 @@ using System.Linq;
 
 namespace Advent
 {
-    public class Day17a
+    public class Day17
     {
-        public int Calc1(string input) => Process(input).maxHeight;
+        public int MaxHeight(string input) => Process(input).maxHeight;
 
-        public int Calc2(string input) => Process(input).hits;
+        public int NumberOfHits(string input) => Process(input).hits;
 
         private bool InRange(int p, (int, int) range) => p >= range.Item1 && p <= range.Item2;
         
